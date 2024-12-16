@@ -3,3 +3,4 @@ pandas
 plotly
 numpy
 matplotlib
+duckdb==0.7.1
