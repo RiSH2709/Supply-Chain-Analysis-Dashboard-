@@ -1,6 +1,6 @@
-pip install numpy>=1.24.0
-pip install pandas>=1.5.0
-pip install plotly==5.8.0
-pip install streamlit==1.10.0
-pip install matplotlib
-pip install duckdb==0.7.1
+streamlit
+pandas
+nbformat
+plotly
+duckdb
+statsmodels
