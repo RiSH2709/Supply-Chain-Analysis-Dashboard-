@@ -13,7 +13,7 @@ st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout
 def load_data(file_path):
     return pd.read_csv(file_path)
 
-df = load_data('D:\master project\supply chain\extended_supply_chain_data_3000.csv')
+df = load_data('extended_supply_chain_data_3000.csv')
 
 with st.spinner('Loading app...'):
     time.sleep(1)
