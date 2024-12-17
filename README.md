@@ -12,7 +12,7 @@ Key Features:
 ☁️ Web-based Dashboard: Deployed for easy access through Streamlit.
 🚀 Live Dashboard
 Access the live, deployed version of the dashboard here:
-🔗 Supply Chain Dashboard
+🔗 [Supply Chain Dashboard](https://supplychainfinal.streamlit.app/)
 
 This dashboard is interactive, and users can explore different supply chain data metrics such as inventory, orders, and lead times.
 
