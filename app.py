@@ -22,11 +22,22 @@ with st.spinner('Loading app...'):
 st.markdown(
     """
     <div style='text-align: center;'>
-        <h1 style='font-size: 5em; font-family: "Comic Sans MS", cursive, sans-serif; font-weight: 600; color: #f63366;'>📊 Supply Chain Dashboard</h1>
+        <h1 style='font-size: 4em; font-family: "Comic Sans MS", cursive, sans-serif; font-weight: 600; color: #f63366;'>
+            📊 Supply Chain Dashboard
+        </h1>
+        <p style='font-size: 1.2em; font-family: Arial, sans-serif; font-weight: 500; color: #000000;'>
+            If you are unable to see the values clearly, please adjust the appearance settings.
+            <br>
+            <strong>Steps:</strong> Click the three dots (⋮) at the top right corner, select <em>Settings</em>, 
+            and switch the <strong>Appearance</strong> to <strong>Dark Mode</strong>.
+        </p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
+# Optional: Add a separator line
+st.markdown("---")
 
 with st.expander("📋 Show Dataset"):
     st.write(df)
