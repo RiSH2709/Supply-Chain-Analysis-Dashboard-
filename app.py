@@ -2,10 +2,12 @@ import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
+import plotly.io as pio
 import os
 import duckdb
 import time
 
+pio.templates.default = "plotly_dark"
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
 # Caching the function to load the dataset
